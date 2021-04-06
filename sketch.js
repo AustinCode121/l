@@ -58,55 +58,55 @@ function setup() {
   playScreenSound.play();
 }
 function preload(){
- plateImage = loadImage("Images/AloneCloudB.png");
- plateImage2 = loadImage("Images/AloneCloudA.png");
- plateImage3 = loadImage("Images/FamilyCloudA.png");
- plateImage4 = loadImage("Images/FamilyCloudB.png");
- playerImageUp = loadImage("Images/playerUp.png");
- playerImageDown = loadImage("Images/playerDown.png");
- playerImageLand = loadImage("Images/playerLand.png");
- playerImageDive = loadImage("Images/PlayerDive.png");
- playerUpDive = loadImage("Images/playerUpDive.png");
- BackGroundImage = loadImage("Images/BackGroundImage.png");
- buttonImage = loadImage("Images/PlayStartImage.png");
- SkySkipImage = loadImage("Images/SkySkipImage.png");
- startingBack = loadImage("Images/LoadingScreenBackground.png");
- HoverButtonImage = loadImage("Images/ButtonHoverImage.png");
- CreditsImage = loadImage("Images/CreditsSign.png");
- CreditsImage2 = loadImage("Images/CreditSignTouch.png");
- backGround3 = loadImage("Images/CreditBackGround.png");
- wormImage = loadImage("Images/WormImage.png");
+ plateImage = loadImage("AloneCloudB.png");
+ plateImage2 = loadImage("AloneCloudA.png");
+ plateImage3 = loadImage("FamilyCloudA.png");
+ plateImage4 = loadImage("FamilyCloudB.png");
+ playerImageUp = loadImage("playerUp.png");
+ playerImageDown = loadImage("playerDown.png");
+ playerImageLand = loadImage("playerLand.png");
+ playerImageDive = loadImage("PlayerDive.png");
+ playerUpDive = loadImage("playerUpDive.png");
+ BackGroundImage = loadImage("BackGroundImage.png");
+ buttonImage = loadImage("PlayStartImage.png");
+ SkySkipImage = loadImage("SkySkipImage.png");
+ startingBack = loadImage("LoadingScreenBackground.png");
+ HoverButtonImage = loadImage("ButtonHoverImage.png");
+ CreditsImage = loadImage("CreditsSign.png");
+ CreditsImage2 = loadImage("CreditSignTouch.png");
+ backGround3 = loadImage("CreditBackGround.png");
+ wormImage = loadImage("WormImage.png");
  ////////////// Full and empty heath
- FullHeart = loadImage("Heath-xp/H1.png");
+ FullHeart = loadImage("H1.png");
  //no heath
- NoHealth = loadImage("Heath-xp/H2.png");
+ NoHealth = loadImage("H2.png");
 ///
-sixHeart = loadImage("Heath-xp/h1-10.png");
-fiveHeart = loadImage("Heath-xp/h2-10.png");
-HalfHeart = loadImage("Heath-xp/h3-10.png");
+sixHeart = loadImage("h1-10.png");
+fiveHeart = loadImage("h2-10.png");
+HalfHeart = loadImage("h3-10.png");
 //
-threeHeart = loadImage("Heath-xp/h4-10.png");
-twoHeart = loadImage("Heath-xp/h5-10.png");
-oneHeart = loadImage("Heath-xp/h6-10.png");
+threeHeart = loadImage("h4-10.png");
+twoHeart = loadImage("h5-10.png");
+oneHeart = loadImage("h6-10.png");
  //////////////////////no heath
- xpImage1 = loadImage("Heath-xp/xp0-10.png");
+ xpImage1 = loadImage("xp0-10.png");
  //full heath
- xpImage2 = loadImage("Heath-xp/xpFull.png");
+ xpImage2 = loadImage("xpFull.png");
 ///
-xpImage3 = loadImage("Heath-xp/xp1-10.png");
-xpImage4 = loadImage("Heath-xp/xp2-10.png");
-xpImage5 = loadImage("Heath-xp/xp3-10.png");
-xpImage6 = loadImage("Heath-xp/xp4-10.png");
-xpImage7 = loadImage("Heath-xp/xp5-10.png");
-xpImage8 = loadImage("Heath-xp/xp6-10.png");
+xpImage3 = loadImage("xp1-10.png");
+xpImage4 = loadImage("xp2-10.png");
+xpImage5 = loadImage("xp3-10.png");
+xpImage6 = loadImage("xp4-10.png");
+xpImage7 = loadImage("xp5-10.png");
+xpImage8 = loadImage("xp6-10.png");
 
 //
-ShipImage = loadImage("Images/ShipImage.png");
+ShipImage = loadImage("ShipImage.png");
 //
-GameOver1 = loadImage("Images/GameOver.png");
-Crt1 = loadImage("Images/CRT.png");
-backButtonImage1 = loadImage("Images/BackButtonImage1.png");
-backButtonImage2 = loadImage("Images/BackButtonImage2.png");
+GameOver1 = loadImage("GameOver.png");
+Crt1 = loadImage("CRT.png");
+backButtonImage1 = loadImage("BackButtonImage1.png");
+backButtonImage2 = loadImage("BackButtonImage2.png");
  playScreenSound = loadSound("PlayScreenMusic.wav");
  clickSound = loadSound("ClickSound.wav");
  
